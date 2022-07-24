@@ -1,0 +1,31 @@
+{
+  "hints": [],
+  "groups": [{
+    "sourceType": "local.starter.RavenProperties",
+    "name": "raven",
+    "description": "Raven",
+    "type": "com.ironbankRavenProperties"
+  }],
+  "properties": [
+    {
+      "sourceType": "local.starter.RavenProperties",
+      "name": "raven.where",
+      "description": "Куда лететь ворону",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "local.starter.RavenProperties",
+      "name": "raven.ravenSwitch",
+      "description": "Raven on/off",
+      "type": "java.lang.String"
+      
+    },
+     {
+      "sourceType": "local.starter.RavenProperties",
+      "name": "ironbank.who-return-debts",
+      "description": "Who return debts",
+      "type": "java.util.List<java.lang.String>"
+      
+    }
+  ]
+}
